@@ -1,0 +1,20 @@
+[2014-10-28 17:21:30] START
+[2014-10-28 17:27:15] EDIT myapp/controllers/default.py: 0
+[2014-10-28 17:27:48] EDIT myapp/controllers/default.py: 0
+[2014-10-28 17:30:04] EDIT myapp/views/default/index.html: -22
+[2014-10-28 17:30:19] EDIT myapp/views/default/index.html: 22
+[2014-10-28 17:30:39] EDIT myapp/views/default/index.html: -26
+[2014-10-28 17:34:02] EDIT myapp/views/default/index.html: 0
+[2014-10-28 17:38:21] EDIT myapp/controllers/default.py: 3
+[2014-10-28 17:39:19] EDIT myapp/views/default/index.html: 1
+[2014-10-28 17:41:59] EDIT myapp/controllers/default.py: 4
+[2014-10-28 17:42:42] CREATE first.html: 0
+[2014-10-28 17:42:57] EDIT myapp/views/first.html: 3
+[2014-10-28 17:43:46] CREATE second.html: 0
+[2014-10-28 17:43:57] EDIT myapp/views/second.html: 0
+[2014-10-28 17:47:12] CREATE default/first.html: 0
+[2014-10-28 17:47:25] EDIT myapp/views/default/first.html: 3
+[2014-10-28 17:47:46] CREATE default/second.html: 0
+[2014-10-28 17:48:10] EDIT myapp/views/default/second.html: -1
+[2014-10-28 17:48:42] DELETE myapp/views/first.html: -6
+[2014-10-28 17:48:49] DELETE myapp/views/second.html: -3

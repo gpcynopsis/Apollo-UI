@@ -1,0 +1,27 @@
+{{extend 'layout.html'}}
+
+<div id="logo">{{=IMG(_src=URL('static','images/logo.png'))}}</div>
+
+<div id="box">
+  <div id="content">
+    <div id="box_left">{{=IMG(_src=URL('static','images/dashboard.jpg'))}}</div>
+    
+    <div id="box_right">
+      <h1>Login</h1>
+      <div id="login"> Or insert your account informations: <br>
+        <form name="login" action="dashboard.html" method="GET" accept-charset="utf-8">
+          <input type="text" class="k-textbox" value="Login" />
+          <input type="password" class="k-textbox" value="Input" />
+          
+          <br>
+          <input type="submit" value="Login" class="btn_login">
+        </form>
+      </div>
+      <div id="bottom_text"></div>
+    </div>
+  </div>
+</div>
+<div class="footer">&copy; 2014 Cynopsis -  <a href="#" id="contact" title="Contact">Contact</a> </div>
+
+
+

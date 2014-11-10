@@ -1,0 +1,132 @@
+{{extend 'layout.html'}}
+
+   <div id="header1" class="navbar navbar-inverse navbar-fixed-top">
+       
+       
+       <div class="navbar-inner1">
+       
+       
+       <div id="dropdown" class="ddmenu">
+      <ul>
+        <li><a href="#">Account Settings</a></li>
+        <li><a href="#">Currency Setting</a></li>
+        <li><a href="#">Log Out</a></li>
+      </ul></div>
+       
+       
+           <div class="logo">{{=IMG(_src=URL('static','images/logo-1.png'))}}</div>
+           
+             <div id="dropdown1" class="ddmenu">
+      <ul>
+        <li><a href="#">Portfolio Valuation</a></li>
+        <li><a href="#">Trading</a></li>
+        <li><a href="#">Portfolio Analytics</a></li>
+        <li><a href="#">Performance Analysis</a></li>
+        <li><a href="#">Risk and Compliance</a></li>
+        <li><a href="#">Performance Analysis</a></li>
+        <li><a href="#">Operations</a></li>
+      </ul></div>
+             
+           
+       </div>
+   </div>
+   <div id="container1" class="row-fluid">
+     <div id="main-content">
+         <div class="container-fluid">
+            <div class="row-fluid">
+               <div class="span121">
+                   <h3 class="page-title">
+                     DASHBOARD
+                   </h3>
+                   <ul class="breadcrumb">
+                       <li>
+                           <a href="#">Home</a>
+                           <span class="divider">/</span>
+                       </li>
+                       
+                   </ul>
+                  
+               </div>
+            </div>
+
+            <div class="row-fluid">
+                <div class="metro-nav">
+                    <div class="metro-nav-block nav-block-orange">
+                        <a data-original-title="" href="portfolio_valuation.html">
+                            <i class="fa fa-pie-chart"></i>
+                            <div class="info">Portfolio <BR><BR> Valuation</div>
+                        </a>
+                    </div>
+                    <div class="metro-nav-block nav-olive">
+                        <a data-original-title="" href="trading.html">
+                            <i class="fa fa-exchange fa-5x t1"></i>
+                        <div class="info">Trading</div>
+                            
+                      </a>
+                  </div>
+                    <div class="metro-nav-block nav-block-yellow">
+                        <a data-original-title="" href="portfolio-analytics/portfolio-analytics.html">
+                            <i class="fa fa-bar-chart fa-5x t1"></i>
+                        <div class="info">Portfolio <br><br>Analytics</div>
+                            
+                      </a>
+                  </div>
+                    <div class="metro-nav-block nav-block-green">
+                        <a data-original-title="" href="performance-analysis/performance-analysis.html">
+                            <i class="fa fa-line-chart fa-5x t1n"></i>
+                        <div class="info">Performance <br><br>Analysis</div>
+                            
+                      </a>
+                  </div>
+                    <div class="metro-nav-block nav-block-red">
+                        <a data-original-title="" href="risk-and-compliance/risk-and-compliance.html">
+                            <i class="fa fa-eye fa-5x t1"></i>
+                        <div class="info">Risk and Compliance</div>
+                            
+                        </a>
+                    </div>
+            </div>
+                <div class="metro-nav">
+                    <div class="metro-nav-block nav-light-purple">
+                        <a data-original-title="" href="operations/operations.html">
+                            <i class="fa fa-cogs fa-5x t1"></i>
+                            <div class="info">Operations</div>
+                            
+                        </a>
+                    </div>
+                    
+      </div>
+                <div class="space10"></div>
+                
+            </div>
+            <div class="row-fluid"></div>
+
+            <div class="row-fluid"></div>
+            <div class="row-fluid"></div>
+            <div class="row-fluid"></div>
+        
+         </div>
+        
+      </div>
+      
+   </div>
+  
+   <div id="footer">
+       2014 &copy; Cynopsis Solutions.
+   </div>
+  
+  
+  <script type="text/javascript">
+$("#dropdown,#dropdown1").on("click", function(e){
+  e.preventDefault();
+  
+  if($(this).hasClass("open")) {
+    $(this).removeClass("open");
+    $(this).children("ul").slideUp("fast");
+  } else {
+    $(this).addClass("open");
+    $(this).children("ul").slideDown("fast");
+  }
+});
+</script> 
+   
